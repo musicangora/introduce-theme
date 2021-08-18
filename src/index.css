@@ -11,3 +11,30 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.passButton {
+  display: inline-block;
+  background-color: lightcoral;
+  color: white;
+  font-weight: bold;
+  padding: 0.8rem 3.5rem;
+  margin: 0 2rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.answerButton {
+  display: inline-block;
+  background-color: lightskyblue;
+  color: white;
+  font-weight: bold;
+  padding: 0.8rem 3rem;
+  margin: 0 2rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
